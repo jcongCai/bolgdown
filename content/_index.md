@@ -30,9 +30,10 @@ sections:
       title: Skills
       items:
         - name: R
-          description: 90%
+          description: 'I have been using R since the start of my graduate studies in 2023. I essentially use R for all my data analysis, modeling, and visualization.'
           icon: r-project
           icon_pack: fab
+          
         - name: Statistics
           description: 100%
           icon: chart-line
@@ -166,6 +167,8 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+      
+      
   - block: markdown
     content:
       title: Gallery
@@ -174,6 +177,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
+      
   - block: collection
     id: featured
     content:
@@ -185,6 +189,7 @@ sections:
     design:
       columns: '2'
       view: card
+      
   - block: collection
     content:
       title: Recent Publications
@@ -199,6 +204,7 @@ sections:
     design:
       columns: '2'
       view: citation
+      
   - block: collection
     id: talks
     content:
@@ -209,11 +215,7 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+ 
   - block: contact
     id: contact
     content:
@@ -222,20 +224,8 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: 191830008@smail.nju.edu.cn
+     
       contact_links:
         - icon: twitter
           icon_pack: fab
